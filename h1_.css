@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.links,a
+{
+    font-family: "Sans-Serif";
+    font-weight: 1000;
+    font-size: 25px;
+    color: #e8e7e8;
+    text-decoration: none;
+}
+li
+{
+    text-decoration: none;
+    text-align: center;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.logo, .links
+{
+    cursor: pointer;
+}
+nav
+{
+    order: 1;
+}
+.links
+{
+    list-style: none;
+}
+.links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links li, a
+{
+    transition: all 0.3s ease 0s;
+}
+.links li, a:hover
+{
+    color: #e3d272;
+}
+nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    position:relative;
+    height:250px; 
+}
+
+nav ul {
+    position:absolute;
+    top:0;
+    width:100%;
+}
+.container
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container2
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.c
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
